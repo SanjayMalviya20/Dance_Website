@@ -1,0 +1,55 @@
+//- index.pug
+doctype html
+html
+  head
+     title Sam Dance Academy  
+     style
+       include ../static/style.css
+  body
+    nav#navbar
+       ul
+         div#logo
+           img(src="../static/hello.png", alt="")
+           h1.pos SDA
+         li  #[a(href="/home") Home]
+         li #[a(href="/") About]
+         li #[a(href="/") Class Info]
+         li #[a(href="/") Contact US]
+         li #[a(href="/") Services]
+
+    section#intosection 
+        div.bold Welcome Sam Dance Academy
+        div.small Eat Sleep Dance Repeat
+
+    section#ourmissonsection
+       h1  Our Misson 
+       div.card 
+         h1 Dannce Perfection
+         div#box  
+           img(src="../static/img.png", alt="")
+           h1 Phyciscal Activity
+       div.card 
+         h3 Dance Our passion
+          div#box1  
+           img(src="../static/img3.png", alt="")
+           h3 Hip Hop
+       div.card 
+         h1 Expert Teaching
+          div#box3 
+           img(src="../static/img4.png", alt="")
+           h3 Indian Dance
+    section#sponsarsection
+       h1  Our Sponsor
+       div#sponsar
+         img#spon1(src="../static/spon1.png", alt="")
+         img#spon2(src="../static/spon2.png", alt="")
+         img#spon3(src="../static/spon3.png", alt="")
+         img#spon4(src="../static/spon4.png", alt="")
+
+
+    section#footersection
+       | copyright ©️ 2024 Sam Dance Academy.com |All rights reserverd   
+
+       script 
+       include ../static/index.js
+    

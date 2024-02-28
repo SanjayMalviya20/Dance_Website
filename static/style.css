@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css?family=Lacquer&display=swap');
+
+* {
+
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+#navbar {
+
+    background-color: rgb(0 78 93);
+    padding: 12px 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar ul {
+
+    display: flex;
+    padding: 5px;
+    gap: 20px;
+}
+
+ul li a {
+
+    color: white;
+    padding: 9px 9px;
+    text-decoration: none;
+    font-family: monospace;
+
+    font-size: 19px;
+
+}
+
+li {
+
+    list-style: none;
+
+}
+
+ul li a:hover {
+
+    color: aqua;
+    transition-duration: 0.9s;
+    text-decoration-line: underline;
+    font-weight: 400;
+
+}
+
+#intosection {
+    background-image: url('../static/michael-afonso-z8Tul255kGg-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 460px;
+    color: aqua;
+    flex-direction: column;
+    display: flex;
+
+
+    justify-content: center;
+    align-items: center;
+}
+
+div.bold {
+    font-weight: 700;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.small {
+    font-size: 40px;
+    background: linear-gradient(50deg, red, purple, blue);
+    font-weight: 800;
+    background-clip: text;
+    font-family: Arial, Helvetica, sans-serif;
+    color: transparent;
+    animation-name: color;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+
+}
+
+@keyframes color {
+    0% {
+
+        background-position: 0px 50px;
+    }
+
+    100% {
+
+        background-position: 500px 100px;
+    }
+
+}
+
+
+#sponsarsection {
+    padding-top: 6px;
+    color: black;
+    background-color: rgb(0 73 207 / 64%);
+    height: 460px;
+}
+#sponsarsection h1{
+
+text-align: center;
+}
+#sponsar{
+
+    display: block;
+    width: 82%;
+    margin: auto;
+}
+
+#footersection {
+
+    background-color: rgb(0, 0, 0);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#ourmissonsection {
+    text-align: center;
+    padding: 12px;
+    height: 370px;
+}
+
+div.card {
+    height: 200px;
+    border: 2px black solid;
+    width: 22%;
+    margin: 49px;
+    border-radius: 12px;
+    display: inline-block;
+    background:#2700b9db;
+
+}
+
+div#logo {
+
+    display: flex;
+    text-align: center;
+    height: 35px;
+    position: relative;
+    top: -12px;
+    font-size: medium;
+    font-family: cursive;
+    color: whitesmoke;
+
+}
+
+#logo img {
+
+    height: 64px;
+}
+
+h1.pos {
+    position: relative;
+    top: 23px;
+    left: -12px;
+
+}
+
+div#box {
+
+    width: 100%;
+    height: 80%;
+}
+
+#box img {
+
+    height: 135px;
+}
+
+div#box1 {
+    font-size: 20px;
+
+    width: 100%;
+    height: 80%;
+}
+
+#box1 img {
+    height: 135px;
+}
+
+div#box3 {
+
+    width: 100%;
+    font-size: 20px;
+    height: 80%;
+}
+
+#box3 img {
+    height: 135px;
+}
+
+#spon1{ 
+
+height: 200px;
+
+}
+#spon2{ 
+
+height: 200px;
+
+}
+#spon3{ 
+
+height: 200px;
+
+}
+#spon4{ 
+
+height: 200px;
+
+}
+#contacth1{
+
+    text-align: center;
+    margin-top: 140px;
+}
+#contactform{
+
+    border: solid 2px;
+}
+.myinput{
+    
+width: 74%;
+    border: solid blue 1px;
+    border-radius: 10px;
+    background: black;
+    padding: 20px;
+    padding: 20px;
+    margin: 13px;
+    padding: 19px;
+    color: wheat;
+}
+.myform{
+    display: flex;
+    justify-content: center;
+    height: 590px;
+    background: black;
+    border-radius: 80px;
+    margin-bottom: 163px;
+    width: 74%;
+    margin-left: 168px;
+    border: solid;
+    align-items: center;
+    flex-direction: column;
+
+}
+.btn{
+
+    font-weight: 700;
+    font-family: monospace;
+    padding: 8px;
+    border: #ad0000 solid;
+    width: 138px;
+    font-size: 20px;
+    background: #7990ff;
+    border-radius: 13px;
+    margin: 12px;
+}
