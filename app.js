@@ -1,7 +1,7 @@
 const express = require("express")
 const app = express();
 const path = require("path")
-const port = 80;
+const port = 3000;
 const mongoose = require("mongoose");
 const bodyparser =require("body-parser");
 const bodyParser = require("body-parser");
@@ -37,7 +37,7 @@ app.get("/contact", (req, res) => {
     
 })
 
-app.post("/contact", (req, res) => {
+app.post("/contacT", (req, res) => {
     
     let data = new sammodel(req.body)
     data.save().then(() => {
